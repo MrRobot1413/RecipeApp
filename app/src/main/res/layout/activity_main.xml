@@ -46,7 +46,5 @@
             app:bt_shape="@drawable/bottom_nav_item_bg"
             app:bt_title="@string/ingredient_search" />
 
-        <!-- Add more child items here - max upto 5 -->
-
     </com.gauravk.bubblenavigation.BubbleNavigationConstraintView>
 </RelativeLayout>
