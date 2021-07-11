@@ -1,8 +1,7 @@
 # RecipeApp
 This app may help you to find delicious recipes and easy-to cook meals. Also, it provides search by ingredients you have. 
 <br>
-C:\Users\koshl\OneDrive\Изображения\mock1.png
-C:\Users\koshl\OneDrive\Изображения\mock2.png
+![App showcase]https://imgur.com/a/dOOlVrg
 <br>
 Technology stack:
 <br>
