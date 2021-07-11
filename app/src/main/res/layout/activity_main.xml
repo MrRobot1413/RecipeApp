@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.mrrobot1413.recipeapp.ui.MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" />
+
+    <com.gauravk.bubblenavigation.BubbleNavigationConstraintView
+        android:id="@+id/bottom_nav_view_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_nav_view_bg"
+        android:elevation="12dp"
+        android:padding="12dp"
+        app:bnc_mode="spread">
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/homeFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="false"
+            app:bt_colorActive="@color/colorPrimary"
+            app:bt_colorInactive="@android:color/darker_gray"
+            app:bt_icon="@drawable/ic_baseline_search_24"
+            app:bt_shape="@drawable/bottom_nav_item_bg"
+            app:bt_title="@string/search" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/ingredientSearchFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="false"
+            app:bt_colorActive="@color/colorPrimary"
+            app:bt_colorInactive="@android:color/darker_gray"
+            app:bt_icon="@drawable/ic_baseline_fastfood_24"
+            app:bt_shape="@drawable/bottom_nav_item_bg"
+            app:bt_title="@string/ingredient_search" />
+
+        <!-- Add more child items here - max upto 5 -->
+
+    </com.gauravk.bubblenavigation.BubbleNavigationConstraintView>
+</RelativeLayout>

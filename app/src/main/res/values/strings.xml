@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Foody</string>
+    <string name="logo">Logo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="pizza_image">Pizza image</string>
+    <string name="first_screen_title">Look for amazing recipes</string>
+    <string name="first_screen_descr">If you want to have a great meal this evening, look for it\'s recipe in our app!</string>
+    <string name="second_screen_title">Find easy to cook meals</string>
+    <string name="second_screen_descr">We\'ll show you recipes to cook with small amount of ingredients!</string>
+    <string name="finish">Finish</string>
+    <string name="search_hint">Type in a meal</string>
+    <string name="home_page_title">What would you like to eat today?</string>
+    <string name="popular_food">Popular food</string>
+    <string name="food_image">Food image</string>
+    <string name="search_results">Search results</string>
+    <string name="no_connection">No connection</string>
+    <string name="error_occurred">Error occurred</string>
+    <string name="retry">Retry</string>
+    <string name="empty_field">Field can\'t be empty</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="ingredient_search">Ingredient</string>
+    <string name="fragment_ingredient_search_header">Let\'s see what you got</string>
+    <string name="type_in_ingredients_using_coma">Type in ingredients using comma \',\'</string>
+</resources>
