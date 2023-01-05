@@ -9,7 +9,7 @@ Technology stack:
 <br>
 -Kotlin
 <br>
-MVVM
+-MVVM
 <br>
 -Retrofit
 <br>
